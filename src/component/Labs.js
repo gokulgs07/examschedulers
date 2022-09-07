@@ -9,9 +9,9 @@ function Labs() {
     <div>
     <Font/>
     <InputComponents
-      onchange={(a) => {
-        setLabs(a.target.value);
-      }}
+      // onchange={(a) => {
+      //   setLabs(a.target.value);
+      // }}
       type="text"
       label={
         <TextComponent
